@@ -1,4 +1,4 @@
-.left-side {
+/*.left-side {
     height:100%;
     width:160px;
     position: fixed;
@@ -13,5 +13,33 @@
     position: fixed;
     top:0;
     right:0;
-    background: green;
+    background: green; 
+} */
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: purple;
+}
+
+footer {
+  background-color: orange;
+}
+
+.grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.right-side {
+  background-color: green;
+  height: 100vh;
+}
+
+.left-side {
+  background-color: blue;
+  height: 100vh;
 }
