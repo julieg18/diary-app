@@ -1,0 +1,17 @@
+.left-side {
+    height:100%;
+    width:160px;
+    position: fixed;
+    top:0;
+    left:0;
+    background: blue;
+}
+
+.right-side {
+    height:100%;
+    width:160px;
+    position: fixed;
+    top:0;
+    right:0;
+    background: green;
+}
